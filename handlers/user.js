@@ -34,8 +34,7 @@ var UserHandler = function (db) {
             return next(error);
         }
 
-        query = Model
-            .findOne({login: userLogin});
+        query = Model.findOne({login: userLogin});
 
         query.exec(function (err, user) {
 

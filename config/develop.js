@@ -1,6 +1,6 @@
 'use strict';
 process.env.HOST = 'localhost';
-process.env.PORT = '3030';
+process.env.PORT = '3010';
 
 process.env.DB_HOST = 'localhost';
 process.env.DB_NAME = 'js_course';
